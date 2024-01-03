@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio.html</title>
+    <link rel="stylesheet" href="./portfolio.css">
+    <style>
+        *{
+    margin:0px;
+    padding: 0px;
+}
+main{
+    height:100vh;
+    width:100%;
+    background-color: aqua;
+    }
+.port{
+    height: 100px;
+    width: 100%;
+    background-color: peru;  
+}
+.one{
+    color: white;
+    display: flex;
+    align-items: center;
+   margin-left: 30px;
+}
+h2{
+    color: black;
+}
+h2:hover{
+     cursor: pointer;
+     color:mediumblue;
+     transition: 2s;
+}
+.two{
+    margin-left: 800px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-bottom: 900px;
+    margin-bottom: 100px;
+}
+.left{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./b.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: peru;
+}
+.num7{
+    position: absolute;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    color: transparent;
+    background-image:linear-gradient(peru,white) ;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -750px,0;
+    animation: backcolor 6.5s linear infinite ;
+}
+@keyframes backcolor{
+    100%{
+        background-position: 0 0;
+    }
+}
+
+h3{
+    font-size: 5vw;
+    margin-left: 30px;
+}
+.num8{
+    position: absolute;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    color: transparent;
+    background-image:linear-gradient(peru,green) ;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -750px,0;
+    animation: backcolor 7.5s linear infinite  ;
+}
+@keyframes backcolor{
+    100%{
+        background-position: 0 0;
+    }
+}
+
+h1{
+    font-size: 7vw;
+    margin-left:40px ;
+    color: #329d52;
+}
+p{
+    font-size: 3vw;
+    margin-left:30px ;
+    color: #865486;
+
+}
+button{
+    margin: 20px;
+    margin-left: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: salmon;
+    transition: 2s;
+}
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%; 
+    /* border-bottom: 5%; */
+    position: absolute;
+    background-color: beige;
+    right: 100px;
+    bottom: 100px; 
+ }
+ 
+ h5{
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 20px;
+ }
+ </style>
+</head>
+<body>
+    <main>
+    <section class="port">
+        <div class="one">
+            <h2>PORTFOLIO</h2><br><br>
+             <h5><a href="./info.html">JAYASHREE K R</a></h5>
+        </div>
+        <div class="two">
+        <ol><a href="./Home1.html">Home</a></ol>
+        <label><a href="./About Me1.html">About Me</a></label>
+        <label><a href="./Skill1.html">Skills</a></label>
+        <label><a href="./Education.html">Education</a></label>
+        <label><a href="./contactme1.html">Contact Me</a></label>
+        </div>
+    </section>
+    <section>
+        <div class="left"><br><br><br><br><br>
+            <h3 class="num7">Hi, I'm Jayashree K R</h3><br><br><br><br><br><br>
+            <h1 class="num8">WEB DEVELOPER</h1><br><br><br>
+            <P><b>Web Developer from Rooman Technologies.</b></P>
+            <p><b>I created websites to do businesses do better online.</b></P><br><br>
+         <button><a href="./Jayashree K R.pdf">Download CV</a></button>
+        </div>
+        <div class="img">
+            <a href="./info.html"> <img src="./im41.jpg" alt=""></a>
+        </div>
+    </section>
+    </main>
+</body>
+</html>
